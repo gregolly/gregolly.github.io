@@ -4,7 +4,7 @@ function menuMobile(){
     const close = document.querySelector('.close');
 
     button.addEventListener('click', () =>{
-        menu.classList.toggle('ativo');
+        menu.classList.add('ativo');
     });
 
     close.addEventListener('click', () =>{

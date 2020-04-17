@@ -4,7 +4,6 @@ function backToTop(){
     window.addEventListener('scroll', (el)=>{
         const backto = window.pageYOffset;
 
-
         if(backto > 3000 ){
             back.classList.add('active');
         } else{

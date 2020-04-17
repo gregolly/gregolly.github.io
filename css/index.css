@@ -10,6 +10,9 @@
     font-family: 'Axis', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #111111;
 }
@@ -73,7 +76,7 @@ h1{
     width: 100%;
     height: 100%;
     top: 0;
-    z-index: 1;
+    z-index: -1;
 }
 .menu-hamburguer{
     background-color: #fff;
@@ -88,6 +91,9 @@ h1{
     right: -13px;
     top: 12px;
     cursor: pointer;
+}
+.logo{
+    margin-left: 10px;
 }
 .menu{
     background-color: #111111;
@@ -177,6 +183,8 @@ h1{
 }
 .projetos{
     margin-top: 400px;
+    position: relative;
+    z-index: 100;
 }
 .projetos h2{
     font-size: 60px;
@@ -336,8 +344,33 @@ h1{
     display: none;
     z-index: 100;
 }
+.top::after{
+    content: '>';
+    display: block;
+    transform: rotate(270deg);
+    font-size: 24px;
+    text-align: center;
+    margin-right: 3px;
+    line-height: 40px;
+    color: #000;
+}
 .active{
     display: block;
+}
+@media(max-width: 1190px){
+    .title{
+        margin: 210px 0;
+    }
+    .headline ul{
+        display: flex;
+        position: absolute;
+        top: 220px;
+        left: 37%;
+    }
+    .headline ul li{
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -395,6 +428,19 @@ h1{
     .footer h2{
         font-size: 41px;
         line-height: 60px;
+    }
+    .close{
+        right: 20px;
+        top: 5px;
+    }
+    .close button{
+        font-size: 41px;
+    }
+    .list-menu{
+        top: 75%;
+    }
+    .list-menu a{
+        font-size: 41px;
     }
     .col-2{
         max-width: 100%;
