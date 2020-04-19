@@ -1,5 +1,5 @@
 function initSlider(){
-    $('.slider').slick({
+    $('.slide').slick({
         dots: false,
         infinite: true,
         speed: 300,
@@ -8,7 +8,7 @@ function initSlider(){
     });
 }
 
-// $(document).ready(function(){
-//     initSlider();
-// });
+$(document).ready(function(){
+    initSlider();
+});
     
