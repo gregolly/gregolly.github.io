@@ -18,7 +18,7 @@ function scrollSmooth(){
 
     const target = document.querySelectorAll('[data-anime]')
     const animateClass = 'animate';
-    const animeClass = 'bounceIn'
+    const animeClass = 'bounce'
 
     function animeScroll(){
         const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4)
