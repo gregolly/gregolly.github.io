@@ -205,6 +205,7 @@ h1{
 .numeros{
     position: relative;
     top: -100px;
+    float: left;
 }
 .numeros-slide{
     font-family: 'montserrat', sans-serif;
@@ -223,6 +224,7 @@ h1{
 }
 .desc-projeto{
     margin-top: 150px;
+    float: left;
 }
 .desc-projeto .titulo-projeto{
     font-family: 'montserrat', sans-serif;
@@ -241,22 +243,25 @@ h1{
     z-index: 100;
     background: none;
     border: none;
-    margin-top: 60px;
     align-content: center;
     margin-left: 50px;
     color: #fff;
     position: relative;
     cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+.img-projeto{
+    float: left;
 }
 .img-projeto img{
-    width: 800px;
     border-radius: 20px;
     margin-right: 50px;
     box-shadow: 6px 6px 15px 0px rgba(0,0,0,.8);
 }
 .svg-seta{
     position: relative;
-    top: 85px;
+    top: 15px;
     background-color: #fff;
     width: 35px;
     height: 35px;
@@ -356,6 +361,24 @@ h1{
 }
 .active{
     display: block;
+}
+.slide{
+    position: relative;
+}
+.slick-next{
+    position: absolute;
+    right: 0;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.slick-prev{
+    position: absolute;
+    right: 70px;
+    bottom: -16px;
+    background: none;
+    border: none;
+    color: #fff;
 }
 @media(max-width: 1190px){
     .title{
