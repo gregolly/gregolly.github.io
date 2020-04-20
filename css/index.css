@@ -380,6 +380,13 @@ h1{
     border: none;
     color: #fff;
 }
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime].animate{
+    opacity: 1;
+}
 @media(max-width: 1190px){
     .title{
         margin: 210px 0;
