@@ -145,6 +145,8 @@ h1{
     font-size: 70px;
     margin: 350px auto;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .headline ul li{
     margin-bottom: 40px;
@@ -157,6 +159,8 @@ h1{
     line-height: 80px;
     color: #fff;
     text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .sobre .subtitulo{
     font-family: 'montserrat', sans-serif;
@@ -190,6 +194,8 @@ h1{
     font-size: 60px;
     line-height: 80px;
     color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .conteudo{
     margin-top: 185px;
@@ -279,6 +285,8 @@ h1{
     line-height: 80px;
     color: #fff;
     text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .footer .subtitulo{
     font-family: 'montserrat', sans-serif;
