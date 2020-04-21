@@ -76,6 +76,7 @@ h1{
     width: 100%;
     height: 100%;
     top: 0;
+    left: 0;
     z-index: -1;
 }
 /* .menu-hamburguer{
@@ -98,7 +99,7 @@ h1{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url('../img/12023.png');
+    /* background-image: url('../img/12023.png'); */
     position: fixed;
     width: 100%;
     height: 100%;
@@ -106,7 +107,7 @@ h1{
     left: 0;
     /* transform: translate(-50%,-50%); */
     display: none;
-    z-index: 100000;
+    z-index: 1;
 }
 .list-menu{
     position: absolute;
@@ -114,6 +115,7 @@ h1{
     top: 50%;
     transform: translate(-50%,-50%);
     margin-top: 50px;
+    z-index: 1000000000000000000;
 }
 .list-menu a{
     color: #FFD745;
