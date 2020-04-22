@@ -12,3 +12,18 @@ function menuMobile(){
     });
 }
 menuMobile();
+
+
+function menuHide(){
+    const menu = document.querySelector('.menu');
+    const innerLink = document.querySelectorAll('[data-scroll]')
+    
+    innerLink.forEach((el) =>{
+        el.addEventListener('click', () =>{
+            menu.classList.remove('ativo')
+        });
+    }); 
+
+
+}
+menuHide()
