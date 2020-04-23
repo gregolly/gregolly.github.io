@@ -240,6 +240,7 @@ a{
     font-size: 48px;
     color: #FFD745;
     line-height: 60px;
+    margin-right: 30px;
 }
 .desc-projeto .tipo-projeto{
     font-family: 'montserrat', sans-serif;
@@ -452,13 +453,13 @@ a{
     .desc-projeto .button-projeto{
         margin-top: 0px;
         position: relative;
-        top: 260px;
+        top: -25px;
     }
     .numeros {
         top: -40px;
     }
     .svg-seta{
-        top: 285px;
+        top: 0px;
     }
     .sobre h2{
         font-size: 41px;
