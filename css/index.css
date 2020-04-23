@@ -8,7 +8,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Saira Stencil One', cursive;
+    /* font-family: 'Saira Stencil One', cursive; */
     box-sizing: border-box;
 }
 html{
@@ -62,10 +62,6 @@ a{
 .container{
     max-width: 1280px;
     margin: 0 auto;
-}
-h1{
-    color: #fff;
-    text-transform: uppercase;
 }
 .flex{
     display: flex;
@@ -150,6 +146,8 @@ h1{
     text-align: center;
     font-weight: bold;  
     color: #FFD745;
+    text-transform: uppercase;
+    font-family: 'Saira Stencil One', cursive;
 }
 
 .sobre-title-container{
@@ -162,6 +160,7 @@ h1{
     font-weight: bold;
     color: #FFD745;
     text-transform: uppercase;
+    font-family: 'Saira Stencil One', cursive;
 }
 .sobre .subtitulo{
     font-family: 'montserrat', sans-serif;
@@ -198,6 +197,7 @@ h1{
     font-weight: bold;
     color: #FFD745;
     text-transform: uppercase;
+    font-family: 'Saira Stencil One', cursive;
 }
 .conteudo{
     margin-top: 185px;
@@ -289,6 +289,7 @@ h1{
     font-weight: bold;
     color: #FFD745;
     text-transform: uppercase;
+    font-family: 'Saira Stencil One', cursive;
 }
 .footer .subtitulo{
     font-family: 'montserrat', sans-serif;
