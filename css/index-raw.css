@@ -1,5 +1,5 @@
 @font-face{
-    font-family: 'Star Jedi', arial;
+    font-family: 'star', arial;
     src: url('../font/Montserrat-Light.ttf');
     src: url('../font/Montserrat-Regular.ttf');
     src: url('../font/star-jedi.ttf');
@@ -7,7 +7,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Star Jedi', arial;
+    font-family: 'star', arial;
     box-sizing: border-box;
 }
 html{
