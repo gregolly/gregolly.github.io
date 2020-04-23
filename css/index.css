@@ -118,6 +118,7 @@ a{
     font-size: 60px;
     display: block;
     margin-bottom: 60px;
+    font-family: 'Saira Stencil One', cursive;
 }
 .list-menu a:hover{
     color: darkgrey;
@@ -135,6 +136,7 @@ a{
     font-size: 60px;
     cursor: pointer;
     font-weight: bold;
+    font-family: 'Saira Stencil One', cursive;
 }
 .close button:hover{
     color: darkgrey;
